@@ -1,0 +1,11 @@
+SELECT TOP (1000) [Position]
+      ,[Artist Name]
+      ,[Song Name]
+      -- ,[Days]
+      ,[Top 10 (xTimes)]
+      -- ,[Peak Position]
+      -- ,[Peak Position (xTimes)]
+      -- ,[Peak Streams]
+      -- ,[Total Streams]
+  FROM [Spotify_Music].[dbo].[Spotify_final_dataset$]
+  ORDER BY [Top 10 (xTimes)] DESC	
